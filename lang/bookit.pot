@@ -1,0 +1,2557 @@
+# Copyright (C) 2024 Booking Calendar | Appointment Booking | BookIt 2.5.0
+# This file is distributed under the same license as the Booking Calendar | Appointment Booking | BookIt 2.5.0 package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Booking Calendar | Appointment Booking | BookIt 2.5.0\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-07-17 13:36+0000\n"
+"Report-Msgid-Bugs-To: http://m.tri.be/191x\n"
+"X-Generated-Time: 2024-07-17T13:36:52.847Z\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SearchPathExcluded-1: common\n"
+"X-Poedit-SearchPathExcluded-2: lang\n"
+"X-Poedit-SearchPathExcluded-3: tests\n"
+"X-Poedit-SearchPathExcluded-4: vendor\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: includes/helpers.php:62, includes/helpers.php:60
+msgid "Keep empty"
+msgstr ""
+
+#: includes/helpers.php:73, includes/helpers.php:71
+msgid "Nothing found"
+msgstr ""
+
+#: includes/classes/AppointmentController.php:66
+msgid "No staff"
+msgstr ""
+
+#: includes/classes/AppointmentController.php:69
+msgid "No service"
+msgstr ""
+
+#: includes/classes/AppointmentController.php:72
+msgid "No start time"
+msgstr ""
+
+#: includes/classes/AppointmentController.php:75
+msgid "No end time"
+msgstr ""
+
+#: includes/classes/AppointmentController.php:78
+msgid "No date"
+msgstr ""
+
+#: includes/classes/AppointmentController.php:84, includes/classes/admin/AppointmentsController.php:411
+msgid "Selected Service Time is not available!"
+msgstr ""
+
+#: includes/classes/AppointmentController.php:89, includes/classes/Translations.php:73, includes/classes/admin/CustomersController.php:163, includes/classes/admin/StaffController.php:132
+msgid "Please enter a valid phone number"
+msgstr ""
+
+#: includes/classes/AppointmentController.php:95
+msgid "Please enter email or phone"
+msgstr ""
+
+#: includes/classes/AppointmentController.php:100, includes/classes/Translations.php:74
+msgid "Please enter email"
+msgstr ""
+
+#: includes/classes/AppointmentController.php:104
+msgid "Please enter your email in format youremail@example.com"
+msgstr ""
+
+#: includes/classes/AppointmentController.php:112
+msgid "Please enter full name"
+msgstr ""
+
+#: includes/classes/AppointmentController.php:109, includes/classes/Translations.php:75
+msgid "Full name must be between 3 and 25 characters long"
+msgstr ""
+
+#: includes/classes/AppointmentController.php:119, includes/classes/Translations.php:86
+msgid "Wrong password"
+msgstr ""
+
+#: includes/classes/AppointmentController.php:124
+msgid "Please enter a password"
+msgstr ""
+
+#: includes/classes/AppointmentController.php:128
+msgid "Passwords may not contain the character '\'"
+msgstr ""
+
+#: includes/classes/AppointmentController.php:132
+msgid "Please enter the same password in both password fields"
+msgstr ""
+
+#: includes/classes/AppointmentController.php:137
+msgid "Authorization error"
+msgstr ""
+
+#: includes/classes/AppointmentController.php:143
+msgid "Price is incorrect"
+msgstr ""
+
+#: includes/classes/AppointmentController.php:147
+msgid "Please choose correct payment method"
+msgstr ""
+
+#: includes/classes/AppointmentController.php:173, includes/classes/AppointmentController.php:241, includes/classes/AppointmentController.php:253, includes/classes/AppointmentController.php:286, includes/classes/admin/AppointmentsController.php:192, includes/classes/admin/AppointmentsController.php:274, includes/classes/admin/AppointmentsController.php:320, includes/classes/admin/AppointmentsController.php:590, includes/classes/admin/AppointmentsController.php:626, includes/classes/admin/AppointmentsController.php:659, includes/classes/admin/CategoriesController.php:28, includes/classes/admin/CategoriesController.php:40, includes/classes/admin/CategoriesController.php:78, includes/classes/admin/CategoriesController.php:92, includes/classes/admin/CategoriesController.php:123, includes/classes/admin/CustomersController.php:152, includes/classes/admin/CustomersController.php:207, includes/classes/admin/CustomersController.php:232, includes/classes/admin/CustomersController.php:291, includes/classes/admin/CustomersController.php:305, includes/classes/admin/CustomersController.php:334, includes/classes/admin/ImportExportController.php:218, includes/classes/admin/ServicesController.php:69, includes/classes/admin/ServicesController.php:83, includes/classes/admin/ServicesController.php:125, includes/classes/admin/ServicesController.php:162, includes/classes/admin/ServicesController.php:187, includes/classes/admin/SettingsController.php:141, includes/classes/admin/SettingsController.php:173, includes/classes/admin/SettingsController.php:286, includes/classes/admin/SettingsController.php:295, includes/classes/admin/StaffController.php:121, includes/classes/admin/StaffController.php:156, includes/classes/admin/StaffController.php:179, includes/classes/admin/StaffController.php:222, includes/classes/admin/StaffController.php:316, includes/classes/admin/StaffController.php:347, includes/classes/admin/StaffController.php:379
+msgid "Error occurred!"
+msgstr ""
+
+#: includes/classes/AppointmentController.php:223, includes/classes/admin/AppointmentsController.php:523
+msgid "Appointment Saved!"
+msgstr ""
+
+#: includes/classes/BookitController.php:173, includes/classes/Translations.php:102
+msgid "Category"
+msgstr ""
+
+#: includes/classes/BookitController.php:174, includes/widgets/ElementorWidgetSettings.php:102, includes/widgets/VisualComposerWidget.php:39
+msgid "Select Category"
+msgstr ""
+
+#: includes/classes/BookitController.php:180, includes/classes/Translations.php:18
+msgid "Service"
+msgstr ""
+
+#: includes/classes/BookitController.php:181, includes/widgets/ElementorWidgetSettings.php:112, includes/widgets/VisualComposerWidget.php:47
+msgid "Select Service"
+msgstr ""
+
+#: includes/classes/BookitController.php:187, includes/classes/Translations.php:21, includes/classes/Translations.php:129
+msgid "Date"
+msgstr ""
+
+#: includes/classes/BookitController.php:188
+msgid "Select Time & Employee"
+msgstr ""
+
+#: includes/classes/BookitController.php:194, includes/classes/BookitController.php:195, includes/classes/Translations.php:134
+msgid "Details"
+msgstr ""
+
+#: includes/classes/BookitController.php:206, includes/classes/BookitController.php:207, includes/classes/Translations.php:131
+msgid "Payment"
+msgstr ""
+
+#: includes/classes/BookitController.php:221, includes/classes/BookitController.php:222
+msgid "Confirmation"
+msgstr ""
+
+#: includes/classes/Notifications.php:309
+msgid "Whoa!"
+msgstr ""
+
+#: includes/classes/Notifications.php:310
+msgid "You have successfully created one appointment. We hope you like it. Time to rate <strong>Bookit 5 Stars!</strong>"
+msgstr ""
+
+#: includes/classes/Translations.php:13
+msgid "Choose Category"
+msgstr ""
+
+#: includes/classes/Translations.php:14
+msgid "Choose Service"
+msgstr ""
+
+#: includes/classes/Translations.php:15
+msgid "From"
+msgstr ""
+
+#: includes/classes/Translations.php:16
+msgid "No available Services!"
+msgstr ""
+
+#: includes/classes/Translations.php:17
+msgid "Booking Appointment"
+msgstr ""
+
+#: includes/classes/Translations.php:19, includes/classes/Translations.php:142
+msgid "Employee"
+msgstr ""
+
+#: includes/classes/Translations.php:20, includes/classes/Translations.php:123
+msgid "Customer"
+msgstr ""
+
+#: includes/classes/Translations.php:22, includes/classes/Translations.php:130
+msgid "Time"
+msgstr ""
+
+#: includes/classes/Translations.php:23, includes/classes/Translations.php:128
+msgid "Price"
+msgstr ""
+
+#: includes/classes/Translations.php:24
+msgid "Submit"
+msgstr ""
+
+#: includes/classes/Translations.php:25
+msgid "Please choose a Service!"
+msgstr ""
+
+#: includes/classes/Translations.php:26
+msgid "Booking Details"
+msgstr ""
+
+#: includes/classes/Translations.php:27, includes/classes/Translations.php:144
+msgid "Full Name"
+msgstr ""
+
+#: includes/classes/Translations.php:28, includes/classes/Translations.php:146
+msgid "Email"
+msgstr ""
+
+#: includes/classes/Translations.php:29, includes/classes/Translations.php:147
+msgid "Phone"
+msgstr ""
+
+#: includes/classes/Translations.php:30, includes/classes/Translations.php:179
+msgid "Password"
+msgstr ""
+
+#: includes/classes/Translations.php:31, includes/classes/Translations.php:180
+msgid "Password Confirmation"
+msgstr ""
+
+#: includes/classes/Translations.php:32
+msgid "I will pay locally"
+msgstr ""
+
+#: includes/classes/Translations.php:33
+msgid "Pay now with PayPal"
+msgstr ""
+
+#: includes/classes/Translations.php:34
+msgid "Pay now with Credit Card"
+msgstr ""
+
+#: includes/classes/Translations.php:35
+msgctxt "Stripe Connect pay with credit card."
+msgid "Pay now with Credit Card"
+msgstr ""
+
+#: includes/classes/Translations.php:36
+msgid "WooCommerce Checkout"
+msgstr ""
+
+#: includes/classes/Translations.php:37
+msgid "Book Now"
+msgstr ""
+
+#: includes/classes/Translations.php:38
+msgid "Your Appointment Request successfully sent!"
+msgstr ""
+
+#: includes/classes/Translations.php:39
+msgid "Reservation confirmation"
+msgstr ""
+
+#: includes/classes/Translations.php:40
+msgid "We have sent your booking information to your email address."
+msgstr ""
+
+#: includes/classes/Translations.php:41
+msgid "You will be redirected to"
+msgstr ""
+
+#: includes/classes/Translations.php:42
+msgid "in"
+msgstr ""
+
+#: includes/classes/Translations.php:43
+msgid "seconds"
+msgstr ""
+
+#: includes/classes/Translations.php:44
+msgid "Client Name"
+msgstr ""
+
+#: includes/classes/Translations.php:45
+msgid "Reservation Time"
+msgstr ""
+
+#: includes/classes/Translations.php:46
+msgid "Reservation Date"
+msgstr ""
+
+#: includes/classes/Translations.php:47
+msgid "Print Confirmation"
+msgstr ""
+
+#: includes/classes/Translations.php:48, includes/classes/Translations.php:181
+msgid "This field is required."
+msgstr ""
+
+#: includes/classes/Translations.php:49, includes/classes/Translations.php:182
+msgid "Invalid Email address."
+msgstr ""
+
+#: includes/classes/Translations.php:50, includes/classes/Translations.php:183
+msgid "Confirmation mismatched."
+msgstr ""
+
+#: includes/classes/Translations.php:51, includes/classes/Translations.php:184
+msgid "Not Available"
+msgstr ""
+
+#: includes/classes/Translations.php:52
+msgid "No Booked Appointments"
+msgstr ""
+
+#: includes/classes/Translations.php:53, includes/classes/Translations.php:132
+msgid "Status"
+msgstr ""
+
+#: includes/classes/Translations.php:54, includes/classes/Translations.php:112
+msgid "Approve"
+msgstr ""
+
+#: includes/classes/Translations.php:55, includes/classes/Translations.php:113
+msgid "Reject"
+msgstr ""
+
+#: includes/classes/Translations.php:56, includes/classes/Translations.php:114
+msgid "Cancel"
+msgstr ""
+
+#: includes/classes/Translations.php:57
+msgid "Something went wrong"
+msgstr ""
+
+#: includes/classes/Translations.php:58
+msgid "Your card was not authenticated, please try again"
+msgstr ""
+
+#: includes/classes/Translations.php:59
+msgid "All available employees"
+msgstr ""
+
+#: includes/classes/Translations.php:60
+msgid "Service price"
+msgstr ""
+
+#: includes/classes/Translations.php:61
+msgid "Select date"
+msgstr ""
+
+#: includes/classes/Translations.php:62
+msgid "Select time"
+msgstr ""
+
+#: includes/classes/Translations.php:63
+msgid "Select employee"
+msgstr ""
+
+#: includes/classes/Translations.php:64
+msgid "Name"
+msgstr ""
+
+#: includes/classes/Translations.php:65
+msgid "Enter your Name"
+msgstr ""
+
+#: includes/classes/Translations.php:66
+msgid "Print"
+msgstr ""
+
+#: includes/classes/Translations.php:67
+msgid "Back"
+msgstr ""
+
+#: includes/classes/Translations.php:68
+msgid "New Booking"
+msgstr ""
+
+#: includes/classes/Translations.php:69
+msgid "Continue"
+msgstr ""
+
+#: includes/classes/Translations.php:70
+msgid "Add to calendar"
+msgstr ""
+
+#: includes/classes/Translations.php:71
+msgid "Service note"
+msgstr ""
+
+#: includes/classes/Translations.php:72
+msgid "Your Message"
+msgstr ""
+
+#: includes/classes/Translations.php:76, includes/classes/Translations.php:160
+msgid "Total"
+msgstr ""
+
+#: includes/classes/Translations.php:77, includes/classes/Translations.php:135
+msgid "Payment method"
+msgstr ""
+
+#: includes/classes/Translations.php:78
+msgid "Google Calendar"
+msgstr ""
+
+#: includes/classes/Translations.php:79
+msgid "iCal Export"
+msgstr ""
+
+#: includes/classes/Translations.php:80
+msgid "Download PDF"
+msgstr ""
+
+#: includes/classes/Translations.php:81
+msgid "Please select date"
+msgstr ""
+
+#: includes/classes/Translations.php:82
+msgid "Please select time"
+msgstr ""
+
+#: includes/classes/Translations.php:83
+msgid "Please select payment"
+msgstr ""
+
+#: includes/classes/Translations.php:84
+msgid "Available for booking"
+msgstr ""
+
+#: includes/classes/Translations.php:85
+msgid "Unavailable for booking"
+msgstr ""
+
+#: includes/classes/Translations.php:98
+msgid "id"
+msgstr ""
+
+#: includes/classes/Translations.php:99
+msgid "Search"
+msgstr ""
+
+#: includes/classes/Translations.php:100
+msgid "Add New"
+msgstr ""
+
+#: includes/classes/Translations.php:101
+msgid "Categories"
+msgstr ""
+
+#: includes/classes/Translations.php:103
+msgid "No Results"
+msgstr ""
+
+#: includes/classes/Translations.php:104
+msgid "Appointment"
+msgstr ""
+
+#: includes/classes/Translations.php:105
+msgid "All Appointments"
+msgstr ""
+
+#: includes/classes/Translations.php:106
+msgid "Appointment Information"
+msgstr ""
+
+#: includes/classes/Translations.php:107
+msgid "Add"
+msgstr ""
+
+#: includes/classes/Translations.php:108
+msgid "Create"
+msgstr ""
+
+#: includes/classes/Translations.php:109
+msgid "Edit"
+msgstr ""
+
+#: includes/classes/Translations.php:110
+msgid "Delete"
+msgstr ""
+
+#: includes/classes/Translations.php:111
+msgid "Save"
+msgstr ""
+
+#: includes/classes/Translations.php:115
+msgid "Past"
+msgstr ""
+
+#: includes/classes/Translations.php:116
+msgid "Appointment is past"
+msgstr ""
+
+#: includes/classes/Translations.php:117
+msgid "Add New Category"
+msgstr ""
+
+#: includes/classes/Translations.php:118
+msgid "Enter Category Name"
+msgstr ""
+
+#: includes/classes/Translations.php:119
+msgid "All"
+msgstr ""
+
+#: includes/classes/Translations.php:120
+msgid "Pending"
+msgstr ""
+
+#: includes/classes/Translations.php:121
+msgid "Approved"
+msgstr ""
+
+#: includes/classes/Translations.php:122
+msgid "Cancelled"
+msgstr ""
+
+#: includes/classes/Translations.php:124
+msgid "Customer Phone"
+msgstr ""
+
+#: includes/classes/Translations.php:125
+msgid "staff"
+msgstr ""
+
+#: includes/classes/Translations.php:126
+msgid "service"
+msgstr ""
+
+#: includes/classes/Translations.php:127, templates/dashboard/bookit-services.php:2, includes/classes/admin/AdminMenu.php:55, includes/classes/admin/AdminMenu.php:56
+msgid "Services"
+msgstr ""
+
+#: includes/classes/Translations.php:133
+msgid "Actions"
+msgstr ""
+
+#: includes/classes/Translations.php:136
+msgid "No Payment Method"
+msgstr ""
+
+#: includes/classes/Translations.php:137
+msgid "Payment status"
+msgstr ""
+
+#: includes/classes/Translations.php:138
+msgid "You are going to delete appointment "
+msgstr ""
+
+#: includes/classes/Translations.php:139
+msgid "Send Notification to:"
+msgstr ""
+
+#: includes/classes/Translations.php:140
+msgid "Reason for cancellation "
+msgstr ""
+
+#: includes/classes/Translations.php:141
+msgid "Reason message"
+msgstr ""
+
+#: includes/classes/Translations.php:143
+msgid "Changing of the service duration will not affect the existing appointments and will be applied only to new appointments"
+msgstr ""
+
+#: includes/classes/Translations.php:145
+msgid "Customer name"
+msgstr ""
+
+#: includes/classes/Translations.php:148
+msgid "Working Hours"
+msgstr ""
+
+#: includes/classes/Translations.php:149
+msgid "Lunch Break"
+msgstr ""
+
+#: includes/classes/Translations.php:150
+msgid "Changing of the Staff working hours will not affect the existing appointments and will be applied only to new appointments"
+msgstr ""
+
+#: includes/classes/Translations.php:151, includes/classes/admin/SettingsController.php:134
+msgid "Wrong currency value"
+msgstr ""
+
+#: includes/classes/Translations.php:152
+msgid "Appointment ID"
+msgstr ""
+
+#: includes/classes/Translations.php:153
+msgid "All Service"
+msgstr ""
+
+#: includes/classes/Translations.php:154
+msgid "All Staff"
+msgstr ""
+
+#: includes/classes/Translations.php:155
+msgid "Selected"
+msgstr ""
+
+#: includes/classes/Translations.php:156
+msgid "Select"
+msgstr ""
+
+#: includes/classes/Translations.php:157
+msgid "Auto Refresh"
+msgstr ""
+
+#: includes/classes/Translations.php:158
+msgid "Detailed view"
+msgstr ""
+
+#: includes/classes/Translations.php:159
+msgid "disabled"
+msgstr ""
+
+#: includes/classes/Translations.php:161
+msgid "Icon"
+msgstr ""
+
+#: includes/classes/Translations.php:162
+msgid "Duration"
+msgstr ""
+
+#: includes/classes/Translations.php:163
+msgid "Title"
+msgstr ""
+
+#: includes/classes/Translations.php:164
+msgid "You have {appointments} active appointments and {staff} staff associated with this service."
+msgstr ""
+
+#: includes/classes/Translations.php:165
+msgid "If you delete the service,  all appointments associated with it, will be deleted as well.  You can edit the service instead."
+msgstr ""
+
+#: includes/classes/Translations.php:166
+msgid "You have {appointments} active appointments and {services} services associated with this staff member."
+msgstr ""
+
+#: includes/classes/Translations.php:167
+msgid "If you remove the employee, all related services will remain without staff, and all appointments will be deleted."
+msgstr ""
+
+#: includes/classes/Translations.php:168
+msgid "You have {appointments} active appointments associated with this customer."
+msgstr ""
+
+#: includes/classes/Translations.php:169
+msgid "If you remove the customer, all appointments associated with customer will be deleted."
+msgstr ""
+
+#: includes/classes/Translations.php:170
+msgid "You have {services} active services, {appointments} active appointments and {staff} staff associated with this category."
+msgstr ""
+
+#: includes/classes/Translations.php:171
+msgid "If you delete the category,  all service and appointments associated with it, will be deleted as well.  You can edit the category instead."
+msgstr ""
+
+#: includes/classes/Translations.php:172
+msgid "Edit Appointments"
+msgstr ""
+
+#: includes/classes/Translations.php:173
+msgid "The duration of the time slot"
+msgstr ""
+
+#: includes/classes/Translations.php:174
+msgid "To use this feature you need to install WooCommerce Plugin."
+msgstr ""
+
+#: includes/classes/Translations.php:175
+msgid "Comment"
+msgstr ""
+
+#: includes/classes/Translations.php:176
+msgid "Enter your comment"
+msgstr ""
+
+#: includes/classes/Translations.php:177
+msgid "New customer"
+msgstr ""
+
+#: includes/classes/Translations.php:178
+msgid "Type to search"
+msgstr ""
+
+#: includes/classes/Translations.php:185
+msgid "Enter password"
+msgstr ""
+
+#: includes/classes/Translations.php:186
+msgid "Repeat password"
+msgstr ""
+
+#: includes/classes/Translations.php:187, templates/dashboard/bookit-settings.php:2, includes/classes/admin/AdminMenu.php:85, includes/classes/admin/AdminMenu.php:86, includes/classes/admin/AdminMenu.php:107
+msgid "Settings"
+msgstr ""
+
+#: includes/classes/Translations.php:188
+msgid "Sender Name"
+msgstr ""
+
+#: includes/classes/Translations.php:189
+msgid "Sender Email"
+msgstr ""
+
+#: includes/classes/Translations.php:190
+msgid "No user"
+msgstr ""
+
+#: includes/classes/Translations.php:191
+msgid "WP User"
+msgstr ""
+
+#: includes/classes/Translations.php:192
+msgid "New"
+msgstr ""
+
+#: includes/classes/Translations.php:193
+msgid "Clean all on delete"
+msgstr ""
+
+#: includes/classes/Translations.php:194
+msgid "Removes all settings and tables from the database used for the plugin when uninstalling the plugin"
+msgstr ""
+
+#: includes/classes/Translations.php:195
+msgid "Setup settings"
+msgstr ""
+
+#: includes/classes/Translations.php:196
+msgid "Pay Locally"
+msgstr ""
+
+#: includes/classes/Translations.php:197
+msgid "Buy Now"
+msgstr ""
+
+#: includes/classes/Translations.php:198
+msgid "No"
+msgstr ""
+
+#: includes/classes/Translations.php:199
+msgid "This feature is part of \"%s\" Add-on!"
+msgstr ""
+
+#: includes/classes/Translations.php:201
+msgid "Calendar View"
+msgstr ""
+
+#: includes/classes/Translations.php:202
+msgid "Email Settings"
+msgstr ""
+
+#: includes/classes/Translations.php:203
+msgid "Template & Style"
+msgstr ""
+
+#: includes/classes/Translations.php:204
+msgid "Calendar Template"
+msgstr ""
+
+#: includes/classes/Translations.php:205, includes/classes/Translations.php:335
+msgid "Template"
+msgstr ""
+
+#: includes/classes/Translations.php:206
+msgid "Default"
+msgstr ""
+
+#: includes/classes/Translations.php:207
+msgid "Step by step"
+msgstr ""
+
+#: includes/classes/Translations.php:208
+msgid "Booking Type"
+msgstr ""
+
+#: includes/classes/Translations.php:209
+msgid "Registered Booking"
+msgstr ""
+
+#: includes/classes/Translations.php:210
+msgid "Guest Booking"
+msgstr ""
+
+#: includes/classes/Translations.php:211
+msgid "Use Custom Colors"
+msgstr ""
+
+#: includes/classes/Translations.php:212
+msgid "Hide Calendar Header Titles"
+msgstr ""
+
+#: includes/classes/Translations.php:213
+msgid "Disable the word “From:” for service with one price"
+msgstr ""
+
+#: includes/classes/Translations.php:216
+msgid "pending"
+msgstr ""
+
+#: includes/classes/Translations.php:217
+msgid "approved"
+msgstr ""
+
+#: includes/classes/Translations.php:218
+msgid "cancelled"
+msgstr ""
+
+#: includes/classes/Translations.php:219
+msgid "complete"
+msgstr ""
+
+#: includes/classes/Translations.php:220
+msgid "locally"
+msgstr ""
+
+#: includes/classes/Translations.php:221
+msgid "free"
+msgstr ""
+
+#: includes/classes/Translations.php:222
+msgid "rejected"
+msgstr ""
+
+#: includes/classes/Translations.php:223
+msgid "Please activate addon"
+msgstr ""
+
+#: includes/classes/Translations.php:224
+msgid "Please choose the customer, staff and service first"
+msgstr ""
+
+#: includes/classes/Translations.php:225
+msgid "Copy"
+msgstr ""
+
+#: includes/classes/Translations.php:226
+msgid "link has been copied"
+msgstr ""
+
+#: includes/classes/Translations.php:227
+msgid "Load"
+msgstr ""
+
+#: includes/classes/Translations.php:228
+msgid "New Appointment"
+msgstr ""
+
+#: includes/classes/Translations.php:229
+msgid "Appointment Status Changed"
+msgstr ""
+
+#: includes/classes/Translations.php:230
+msgid "Payment Complete"
+msgstr ""
+
+#: includes/classes/Translations.php:231
+msgid "Appointment Updated"
+msgstr ""
+
+#: includes/classes/Translations.php:232
+msgid "Delete Appointment"
+msgstr ""
+
+#: includes/classes/Translations.php:233
+msgid "Customer Notification"
+msgstr ""
+
+#: includes/classes/Translations.php:234
+msgid "Admin Notification"
+msgstr ""
+
+#: includes/classes/Translations.php:235
+msgid "Staff Notification"
+msgstr ""
+
+#: includes/classes/Translations.php:236
+msgid "Day"
+msgstr ""
+
+#: includes/classes/Translations.php:237
+msgid "Week"
+msgstr ""
+
+#: includes/classes/Translations.php:238
+msgid "Month"
+msgstr ""
+
+#: includes/classes/Translations.php:239
+msgid "Today"
+msgstr ""
+
+#: includes/classes/Translations.php:240
+msgid "Feedback"
+msgstr ""
+
+#: includes/classes/Translations.php:241
+msgid "Documentation"
+msgstr ""
+
+#: includes/classes/Translations.php:242
+msgid "No Category"
+msgstr ""
+
+#: includes/classes/Translations.php:243
+msgid "Day Off"
+msgstr ""
+
+#: includes/classes/Translations.php:244
+msgid "General"
+msgstr ""
+
+#: includes/classes/Translations.php:245
+msgid "Currency"
+msgstr ""
+
+#: includes/classes/Translations.php:246
+msgid "Payments"
+msgstr ""
+
+#: includes/classes/Translations.php:247
+msgid "Email Templates"
+msgstr ""
+
+#: includes/classes/Translations.php:248
+msgid "Shortcode Generator"
+msgstr ""
+
+#: includes/classes/Translations.php:249
+msgid "Import/Export"
+msgstr ""
+
+#: includes/classes/Translations.php:250, includes/classes/Translations.php:320
+msgid "Main settings"
+msgstr ""
+
+#: includes/classes/Translations.php:251
+msgid "Base Color"
+msgstr ""
+
+#: includes/classes/Translations.php:252
+msgid "Base Background Color"
+msgstr ""
+
+#: includes/classes/Translations.php:253
+msgid "Highlight Color"
+msgstr ""
+
+#: includes/classes/Translations.php:254
+msgid "White Color"
+msgstr ""
+
+#: includes/classes/Translations.php:255
+msgid "Dark Color"
+msgstr ""
+
+#: includes/classes/Translations.php:256
+msgid "Currency symbol"
+msgstr ""
+
+#: includes/classes/Translations.php:257
+msgid "Currency Position"
+msgstr ""
+
+#: includes/classes/Translations.php:258
+msgid "Left"
+msgstr ""
+
+#: includes/classes/Translations.php:259
+msgid "Right"
+msgstr ""
+
+#: includes/classes/Translations.php:260
+msgid "Thousands Separator"
+msgstr ""
+
+#: includes/classes/Translations.php:261
+msgid "Decimals Separator"
+msgstr ""
+
+#: includes/classes/Translations.php:262
+msgid "Number of decimals"
+msgstr ""
+
+#: includes/classes/Translations.php:263, includes/classes/Translations.php:321
+msgid "Enabled"
+msgstr ""
+
+#: includes/classes/Translations.php:264
+msgid "Subject"
+msgstr ""
+
+#: includes/classes/Translations.php:265
+msgid "Message Body"
+msgstr ""
+
+#: includes/classes/Translations.php:266
+msgid "Recipients"
+msgstr ""
+
+#: includes/classes/Translations.php:267
+msgid "Import demo content"
+msgstr ""
+
+#: includes/classes/Translations.php:268
+msgid "Import the demo content for understanding how it works"
+msgstr ""
+
+#: includes/classes/Translations.php:269
+msgid "Demo Import"
+msgstr ""
+
+#: includes/classes/Translations.php:270
+msgid "Importing"
+msgstr ""
+
+#: includes/classes/Translations.php:271
+msgid "Import"
+msgstr ""
+
+#: includes/classes/Translations.php:272
+msgid "Import Bookit data previously saved as in JSON format as txt file"
+msgstr ""
+
+#: includes/classes/Translations.php:273
+msgid "Select file"
+msgstr ""
+
+#: includes/classes/Translations.php:274
+msgid "Import Json"
+msgstr ""
+
+#: includes/classes/Translations.php:275
+msgid "Export"
+msgstr ""
+
+#: includes/classes/Translations.php:276
+msgid "Export the current Services, Staff, Categories and Settings in JSON format as txt file"
+msgstr ""
+
+#: includes/classes/Translations.php:277
+msgid "Export Json"
+msgstr ""
+
+#: includes/classes/Translations.php:278
+msgid "Export the current Appointments as Excel file"
+msgstr ""
+
+#: includes/classes/Translations.php:279
+msgid "Export Excel"
+msgstr ""
+
+#: includes/classes/Translations.php:280
+msgid "15 minutes"
+msgstr ""
+
+#: includes/classes/Translations.php:281
+msgid "20 minutes"
+msgstr ""
+
+#: includes/classes/Translations.php:282
+msgid "30 minutes"
+msgstr ""
+
+#: includes/classes/Translations.php:283
+msgid "45 minutes"
+msgstr ""
+
+#: includes/classes/Translations.php:284
+msgid "1 hour"
+msgstr ""
+
+#: includes/classes/Translations.php:285
+msgid "to"
+msgstr ""
+
+#: includes/classes/Translations.php:286
+msgid "No Break"
+msgstr ""
+
+#: includes/classes/Translations.php:287
+msgid "Add Icon"
+msgstr ""
+
+#: includes/classes/Translations.php:288
+msgid "Replace Icon"
+msgstr ""
+
+#: includes/classes/Translations.php:289
+msgid "Remove Icon"
+msgstr ""
+
+#: includes/classes/Translations.php:290
+msgid "Reset"
+msgstr ""
+
+#: includes/classes/Translations.php:291
+msgid "Import completed"
+msgstr ""
+
+#: includes/classes/Translations.php:292
+msgid "Import Data started"
+msgstr ""
+
+#: includes/classes/Translations.php:293
+msgctxt "Name for the Google Calendar setting tab"
+msgid "Google Calendar"
+msgstr ""
+
+#: includes/classes/Translations.php:310
+msgctxt "BookIt for Google calendar data disclaimer text."
+msgid "BookIt for Google Calendar will ensure that any data received from Google APIs is handled in accordance with the %1$sGoogle API Services User Data Policy%2$s, including compliance with the Limited Use requirements."
+msgstr ""
+
+#: includes/classes/Translations.php:322
+msgid "Client ID"
+msgstr ""
+
+#: includes/classes/Translations.php:323
+msgid "Client ID, derived from the Google Developers Console Credentials"
+msgstr ""
+
+#: includes/classes/Translations.php:324
+msgid "Client Secret"
+msgstr ""
+
+#: includes/classes/Translations.php:325
+msgid "Client Secret, derived from the Google Developers Console Credentials"
+msgstr ""
+
+#: includes/classes/Translations.php:326
+msgid "Redirect URI"
+msgstr ""
+
+#: includes/classes/Translations.php:327
+msgid "Syncronization with pending appointments"
+msgstr ""
+
+#: includes/classes/Translations.php:328
+msgid "New unapproved appointments created by customers will be also added to the staff's Google Calendar."
+msgstr ""
+
+#: includes/classes/Translations.php:329
+msgid "Consider Google calendar busy slots for customers"
+msgstr ""
+
+#: includes/classes/Translations.php:330
+msgid "Google Calendar time slots will be checked before displaying free time slots for new appointments. Customers cannot make appointments if the time slot is busy in the staff's Google Сalendar account."
+msgstr ""
+
+#: includes/classes/Translations.php:331
+msgid "Add customer as event attendees"
+msgstr ""
+
+#: includes/classes/Translations.php:332
+msgid "By creating the event on Google Calendar, the email of the client will be added to the event as an attendee."
+msgstr ""
+
+#: includes/classes/Translations.php:333
+msgid "Export appointments"
+msgstr ""
+
+#: includes/classes/Translations.php:334
+msgid "Synchronization of all the upcoming events with Google Calendar of the staff."
+msgstr ""
+
+#: includes/classes/Translations.php:336
+msgid "Body"
+msgstr ""
+
+#: includes/classes/Translations.php:337
+msgid "Connect"
+msgstr ""
+
+#: includes/classes/Translations.php:338
+msgid "Re-Connect"
+msgstr ""
+
+#: includes/classes/Translations.php:339
+msgid "Connected"
+msgstr ""
+
+#: includes/classes/Translations.php:340
+msgid "Disconnect"
+msgstr ""
+
+#: includes/classes/Translations.php:341
+msgid "On selected period exist google calendar event"
+msgstr ""
+
+#: includes/classes/Translations.php:342
+msgctxt "Label for timezone setting."
+msgid "Timezone"
+msgstr ""
+
+#: includes/classes/Translations.php:343
+msgctxt "Label for timezone select placeholder."
+msgid "Select a Timezone"
+msgstr ""
+
+#: includes/classes/Translations.php:352
+msgid "PayPal IPN Setup"
+msgstr ""
+
+#: includes/classes/Translations.php:353
+msgid "You need to use this URL for your"
+msgstr ""
+
+#: includes/classes/Translations.php:354
+msgid "IPN Listener Settings:"
+msgstr ""
+
+#: includes/classes/Translations.php:355
+msgid "PayPal Email"
+msgstr ""
+
+#: includes/classes/Translations.php:356
+msgid "PayPal Mode"
+msgstr ""
+
+#: includes/classes/Translations.php:357
+msgid "Live"
+msgstr ""
+
+#: includes/classes/Translations.php:358
+msgid "Sandbox"
+msgstr ""
+
+#: includes/classes/Translations.php:359
+msgctxt "Validation message for saving PayPal legacy settings."
+msgid "PayPal settings validation failed. Please check the fields in the Payments tab."
+msgstr ""
+
+#: includes/classes/Translations.php:360
+msgctxt "Validation message for saving PayPal legacy settings."
+msgid "PayPal email is required"
+msgstr ""
+
+#: includes/classes/Translations.php:361
+msgctxt "Validation message for saving PayPal legacy settings."
+msgid "PayPal mode is required"
+msgstr ""
+
+#: includes/classes/Translations.php:362
+msgid "Stripe Publish Key"
+msgstr ""
+
+#: includes/classes/Translations.php:363
+msgid "Stripe Secret Key"
+msgstr ""
+
+#: includes/classes/Translations.php:364
+msgid "WooCommerce Product"
+msgstr ""
+
+#: includes/classes/Translations.php:365
+msgid "WooCommerce Custom Title"
+msgstr ""
+
+#: includes/classes/Translations.php:366
+msgid "WooCommerce Custom Icon"
+msgstr ""
+
+#: includes/classes/Translations.php:367
+msgid "WooCommerce Custom Icon must be image"
+msgstr ""
+
+#: includes/classes/Translations.php:368
+msgid "Choose icon"
+msgstr ""
+
+#: includes/classes/Translations.php:371
+msgctxt "Stripe Connect singular name."
+msgid "Stripe Connect"
+msgstr ""
+
+#: includes/classes/Translations.php:372
+msgctxt "Stripe Connect intro title."
+msgid "Accept online payments with Stripe!"
+msgstr ""
+
+#: includes/classes/Translations.php:373
+msgctxt "Stripe Connect intro text."
+msgid "Start having customers pay for appointments today with Stripe integration for Bookit Stripe Connect."
+msgstr ""
+
+#: includes/classes/Translations.php:374
+msgctxt "Stripe Connect connect account link text."
+msgid "Get connected with"
+msgstr ""
+
+#: includes/classes/Translations.php:375
+msgctxt "Stripe Connect connect account link text service name."
+msgid "Stripe"
+msgstr ""
+
+#: includes/classes/Translations.php:376
+msgctxt "Stripe Connect intro text for button to authorize."
+msgid "Get troubleshooting help"
+msgstr ""
+
+#: includes/classes/Translations.php:377
+msgctxt "Stripe Connect marketing information line 1."
+msgid "Credit, debit card payments and more!"
+msgstr ""
+
+#: includes/classes/Translations.php:378
+msgctxt "Stripe Connect marketing information line 2."
+msgid "Easy, streamlined connection"
+msgstr ""
+
+#: includes/classes/Translations.php:379
+msgctxt "Stripe Connect marketing information line 3."
+msgid "Accept payments from around the world"
+msgstr ""
+
+#: includes/classes/Translations.php:380
+msgctxt "Stripe Connect marketing information line 4."
+msgid "Supports 3D Secure payments"
+msgstr ""
+
+#: includes/classes/Translations.php:381
+msgctxt "Stripe Connect after connected title."
+msgid "You are now connected to Stripe! What's next?"
+msgstr ""
+
+#: includes/classes/Translations.php:382
+msgctxt "Stripe Connect is active message."
+msgid "Your connection is active, but Bookit Stripe Connect is set to test mode. While in test mode no live transactions are processed."
+msgstr ""
+
+#: includes/classes/Translations.php:383
+msgctxt "Stripe Connect test mode label."
+msgid "Enables Test Mode"
+msgstr ""
+
+#: includes/classes/Translations.php:384
+msgctxt "Stripe Connect test mode message."
+msgid "Enables Test mode for testing payments. Any payments made will be done on \"sandbox\" accounts."
+msgstr ""
+
+#: includes/classes/Translations.php:385
+msgctxt "Stripe Connect currency matching header."
+msgid "Currency"
+msgstr ""
+
+#: includes/classes/Translations.php:386
+msgctxt "Stripe Connect currency matching text."
+msgid "Be sure that your Stripe currency matches the currency you have configured for Bookit Stripe Connect, to avoid any issues or unexpected conversion fees."
+msgstr ""
+
+#: includes/classes/Translations.php:387
+msgctxt "Stripe Connect payment methods header."
+msgid "Payment methods"
+msgstr ""
+
+#: includes/classes/Translations.php:388
+msgctxt "Stripe Connect payment methods text."
+msgid "You will have to confirm that the payments methods you have selected to sell appointments are enabled on the"
+msgstr ""
+
+#: includes/classes/Translations.php:389
+msgctxt "Stripe Connect payment methods link text."
+msgid "Stripe payment methods section"
+msgstr ""
+
+#: includes/classes/Translations.php:390
+msgctxt "Stripe Connect webhooks header."
+msgid "Webhooks"
+msgstr ""
+
+#: includes/classes/Translations.php:391
+msgctxt "Stripe Connect webhooks text."
+msgid "Your webhook is now automatically configured! A webhook is required for appointment payments to be marked as complete for some payment methods on your Stripe gateway for your Bookit site. If you would like to read more on how we set up the webhook or if you are facing issues with it there are resources"
+msgstr ""
+
+#: includes/classes/Translations.php:392
+msgctxt "Stripe Connect webhooks link text."
+msgid "here"
+msgstr ""
+
+#: includes/classes/Translations.php:393
+msgctxt "Stripe Connect PCI Compliance header."
+msgid "PCI Compliance"
+msgstr ""
+
+#: includes/classes/Translations.php:394
+msgctxt "Stripe Connect PCI Compliance text."
+msgid "Stripe allows you to accept credit or debit cards directly on your website. Because of this, your site needs to maintain"
+msgstr ""
+
+#: includes/classes/Translations.php:395
+msgctxt "Stripe Connect PCI Compliance link text."
+msgid "PCI-DSS compliance"
+msgstr ""
+
+#: includes/classes/Translations.php:396
+msgctxt "Stripe Connect connected message button close text."
+msgid "Got it, thanks!"
+msgstr ""
+
+#: includes/classes/Translations.php:397
+msgctxt "Stripe Connect connected as id message."
+msgid "Connected as"
+msgstr ""
+
+#: includes/classes/Translations.php:398
+msgctxt "Stripe Connect connected disconnect button text."
+msgid "Disconnect"
+msgstr ""
+
+#: includes/classes/Translations.php:399
+msgctxt "Stripe Connect connected payment_status title."
+msgid "Payments status"
+msgstr ""
+
+#: includes/classes/Translations.php:400
+msgctxt "Stripe Connect currency title."
+msgid "Stripe currency"
+msgstr ""
+
+#: includes/classes/Translations.php:401
+msgctxt "Stripe Connect currency information message title."
+msgid "Please be sure to enable all the payment methods you want to use for this currency on your"
+msgstr ""
+
+#. translators: %1$s is the Stripe currency, %2$s is the Bookit currency symbol.
+#: includes/classes/Translations.php:403
+msgctxt "Stripe Connect currency not matching message."
+msgid "Your Stripe account is set to %1$s, but your site is set to %2$s. Using different currencies for Bookit and Stripe may not be supported by all payment methods available in %2$s, and may result in exchange rates and conversions from %2$s to %1$s being handled by Stripe."
+msgstr ""
+
+#: includes/classes/Translations.php:405
+msgctxt "Stripe Connect dashboard link text."
+msgid "Stripe dashboard"
+msgstr ""
+
+#: includes/classes/Translations.php:406
+msgctxt "Stripe Connect settings link text."
+msgid "Edit Your Stripe Settings"
+msgstr ""
+
+#: includes/classes/Translations.php:407
+msgctxt "Stripe Connect settings link text."
+msgid "Learn more about configuring Stripe payments"
+msgstr ""
+
+#: includes/classes/Translations.php:418, includes/classes/admin/AdminMenu.php:93, includes/classes/admin/AdminMenu.php:94
+msgid "Add-ons"
+msgstr ""
+
+#: includes/classes/Translations.php:419
+msgid "This is a universal tool that works with any WordPress theme and performs greatly on any business website."
+msgstr ""
+
+#: includes/classes/Translations.php:420
+msgid "Version"
+msgstr ""
+
+#: includes/classes/Translations.php:421
+msgid "Buy"
+msgstr ""
+
+#: includes/classes/Translations.php:422
+msgid "View Changelog"
+msgstr ""
+
+#: includes/classes/Translations.php:423
+msgid "Popular"
+msgstr ""
+
+#: includes/classes/Translations.php:424
+msgid "%s %s license already purchased"
+msgstr ""
+
+#: includes/classes/Translations.php:425
+msgid "Upgrade"
+msgstr ""
+
+#: includes/classes/Translations.php:426
+msgid "Lifetime license %s already active"
+msgstr ""
+
+#: includes/classes/Translations.php:427
+msgid "Active"
+msgstr ""
+
+#: includes/classes/Translations.php:428
+msgid "per year"
+msgstr ""
+
+#: includes/classes/Translations.php:429
+msgid "Learn More"
+msgstr ""
+
+#: includes/classes/Translations.php:430
+msgid "lifetime"
+msgstr ""
+
+#: includes/helpers/FreemiusHelper.php:105, includes/classes/admin/DashboardController.php:67
+msgid "Let your customers select WooCommerce platform and pay for meetings with ease. Merge your Bookit calendar and Google Calendar with just one click. Now easy to book and schedule appointments."
+msgstr ""
+
+#: includes/helpers/FreemiusHelper.php:138
+msgid "Single Site"
+msgstr ""
+
+#: includes/helpers/FreemiusHelper.php:144
+msgid "Up to 5 Sites"
+msgstr ""
+
+#: includes/helpers/FreemiusHelper.php:145
+msgid "Most Popular"
+msgstr ""
+
+#: includes/helpers/FreemiusHelper.php:149
+msgid "Up to 25 Sites"
+msgstr ""
+
+#: includes/helpers/FreemiusHelper.php:150
+msgid "Developer Oriented"
+msgstr ""
+
+#: includes/widgets/ElementorWidgetSettings.php:48, includes/widgets/VisualComposerWidget.php:32
+msgid "Bookit Calendar"
+msgstr ""
+
+#: includes/widgets/ElementorWidgetSettings.php:95
+msgid "Calendar Settings"
+msgstr ""
+
+#: includes/widgets/ElementorWidgetSettings.php:122, includes/widgets/VisualComposerWidget.php:55
+msgid "Select Staff"
+msgstr ""
+
+#: includes/widgets/VisualComposerWidget.php:34
+msgid "Content"
+msgstr ""
+
+#: includes/widgets/VisualComposerWidget.php:35
+msgid "Place Bookit Calendar"
+msgstr ""
+
+#: templates/dashboard/bookit-addons.php:15
+msgid "Annual"
+msgstr ""
+
+#: templates/dashboard/bookit-addons.php:20, templates/dashboard/bookit-addons.php:262
+msgid "Lifetime"
+msgstr ""
+
+#: templates/dashboard/bookit-addons.php:113, templates/dashboard/bookit-addons.php:136
+msgid "/per year"
+msgstr ""
+
+#: templates/dashboard/bookit-addons.php:260
+msgid "You get"
+msgstr ""
+
+#: templates/dashboard/bookit-addons.php:262, templates/dashboard/bookit-addons.php:263
+msgid "1 year"
+msgstr ""
+
+#: templates/dashboard/bookit-addons.php:265
+msgid " updates and support "
+msgstr ""
+
+#: templates/dashboard/bookit-addons.php:267
+msgid "from the date of purchase. We offer 30 days Money Back Guarantee based on"
+msgstr ""
+
+#: templates/dashboard/bookit-addons.php:269
+msgid "Refund Policy"
+msgstr ""
+
+#: templates/dashboard/bookit-calendar.php:2, includes/classes/admin/AdminMenu.php:34, includes/classes/admin/AdminMenu.php:35
+msgid "Calendar"
+msgstr ""
+
+#: includes/classes/admin/AdminMenu.php:45, includes/classes/admin/AdminMenu.php:46, includes/classes/admin/AdminMenu.php:46, includes/classes/admin/AppointmentsController.php:128
+msgid "Appointments"
+msgstr ""
+
+#: includes/classes/admin/AdminMenu.php:65, includes/classes/admin/AdminMenu.php:66, includes/classes/admin/StaffController.php:80
+msgid "Staff"
+msgstr ""
+
+#: includes/classes/admin/AdminMenu.php:75, includes/classes/admin/AdminMenu.php:76, includes/classes/admin/CustomersController.php:56
+msgid "Customers"
+msgstr ""
+
+#: includes/classes/admin/AppointmentsController.php:121
+msgid "1m"
+msgstr ""
+
+#: includes/classes/admin/AppointmentsController.php:122
+msgid "3m"
+msgstr ""
+
+#: includes/classes/admin/AppointmentsController.php:123
+msgid "5m"
+msgstr ""
+
+#: includes/classes/admin/AppointmentsController.php:124
+msgid "10m"
+msgstr ""
+
+#: includes/classes/admin/AppointmentsController.php:326
+msgid "Wrong status value"
+msgstr ""
+
+#: includes/classes/admin/AppointmentsController.php:377
+msgid "Not Set"
+msgstr ""
+
+#: includes/classes/admin/AppointmentsController.php:425
+msgid "Please choose correct appointment status"
+msgstr ""
+
+#: includes/classes/admin/AppointmentsController.php:429
+msgid "Please choose customer"
+msgstr ""
+
+#: includes/classes/admin/AppointmentsController.php:433
+msgid "Please choose staff"
+msgstr ""
+
+#: includes/classes/admin/AppointmentsController.php:437
+msgid "Please choose service"
+msgstr ""
+
+#: includes/classes/admin/AppointmentsController.php:585
+msgid "Appointment Updated!"
+msgstr ""
+
+#: includes/classes/admin/AppointmentsController.php:623
+msgid "Appointment Status Changed!"
+msgstr ""
+
+#: includes/classes/admin/AppointmentsController.php:656
+msgid "Appointment Deleted!"
+msgstr ""
+
+#: includes/classes/admin/CategoriesController.php:24
+msgid "Category Name can't be empty and must be between 3 and 25 characters long"
+msgstr ""
+
+#: includes/classes/admin/CategoriesController.php:36
+msgid "Category with such name already exist"
+msgstr ""
+
+#: includes/classes/admin/CategoriesController.php:73
+msgid "Category Saved!"
+msgstr ""
+
+#: includes/classes/admin/CategoriesController.php:120
+msgid "Category Deleted!"
+msgstr ""
+
+#: includes/classes/admin/CustomersController.php:168, includes/classes/admin/StaffController.php:137
+msgid "Email is required"
+msgstr ""
+
+#: includes/classes/admin/CustomersController.php:177
+msgid "Customer with such email already exist"
+msgstr ""
+
+#: includes/classes/admin/CustomersController.php:231
+msgid "Customer with such email already exist."
+msgstr ""
+
+#: includes/classes/admin/CustomersController.php:255, includes/classes/admin/CustomersController.php:286, includes/classes/admin/StaffController.php:195
+msgid "Customer Saved!"
+msgstr ""
+
+#: includes/classes/admin/CustomersController.php:331
+msgid "Customer Deleted!"
+msgstr ""
+
+#: includes/classes/admin/ImportExportController.php:141
+msgctxt "Import error message"
+msgid "No data"
+msgstr ""
+
+#: includes/classes/admin/ImportExportController.php:142, includes/classes/admin/ImportExportController.php:155, includes/classes/admin/ImportExportController.php:169, includes/classes/admin/ImportExportController.php:189
+msgctxt "Import error message"
+msgid "Error occurred!"
+msgstr ""
+
+#: includes/classes/admin/ImportExportController.php:154
+msgctxt "Import error message"
+msgid "File is empty"
+msgstr ""
+
+#: includes/classes/admin/ImportExportController.php:168
+msgctxt "Import error message"
+msgid "File type not allowed"
+msgstr ""
+
+#: includes/classes/admin/ImportExportController.php:188
+msgctxt "Import error message"
+msgid "Error occurred during file upload"
+msgstr ""
+
+#: includes/classes/admin/ImportExportController.php:217
+msgid "File not found"
+msgstr ""
+
+#: includes/classes/admin/ServicesController.php:157
+msgid "Service Saved!"
+msgstr ""
+
+#: includes/classes/admin/ServicesController.php:184
+msgid "Service Deleted!"
+msgstr ""
+
+#: includes/classes/admin/SettingsController.php:170
+msgid "Settings Saved!"
+msgstr ""
+
+#: includes/classes/admin/SettingsController.php:285
+msgid "No data"
+msgstr ""
+
+#: includes/classes/admin/SettingsController.php:294
+msgid "File is empty"
+msgstr ""
+
+#: includes/classes/admin/SettingsController.php:312
+msgid "Icon Uploaded!"
+msgstr ""
+
+#: includes/classes/admin/SettingsController.php:330
+msgid "Icon Removed!"
+msgstr ""
+
+#: includes/classes/admin/StaffController.php:141
+msgid "Not valid Email"
+msgstr ""
+
+#: includes/classes/admin/StaffController.php:149
+msgid "Full Name is required."
+msgstr ""
+
+#: includes/classes/admin/StaffController.php:146
+msgid "Full Name must be between 3 and 50 characters long"
+msgstr ""
+
+#: includes/classes/admin/StaffController.php:178
+msgid "Wordpress User with such email already exist."
+msgstr ""
+
+#: includes/classes/admin/StaffController.php:298
+msgid "Staff Saved!"
+msgstr ""
+
+#: includes/classes/admin/StaffController.php:332
+msgid "Staff disconnected!"
+msgstr ""
+
+#: includes/classes/admin/StaffController.php:377
+msgid "Staff Deleted!"
+msgstr ""
+
+#: includes/classes/base/AddonsFactory.php:87, src/Bookit/Gateways/StripeConnect/Compatibility.php:109
+msgctxt "Stripe Connect payment singular name."
+msgid "Stripe Connect"
+msgstr ""
+
+#: includes/classes/base/AddonsFactory.php:92, src/Bookit/Gateways/StripeConnect/Compatibility.php:113
+msgctxt "PayPal Legacy payment singular name."
+msgid "PayPal - Legacy"
+msgstr ""
+
+#: includes/classes/base/AddonsFactory.php:97, src/Bookit/Gateways/StripeConnect/Compatibility.php:117
+msgctxt "Stripe Legacy payment singular name."
+msgid "Stripe - Legacy"
+msgstr ""
+
+#: includes/classes/base/AddonsFactory.php:102, src/Bookit/Gateways/StripeConnect/Compatibility.php:121
+msgctxt "WooCommerce payment singular name."
+msgid "WooCommerce"
+msgstr ""
+
+#: includes/classes/vendor/Payments.php:164
+msgid "United Arab Emirates dirham"
+msgstr ""
+
+#: includes/classes/vendor/Payments.php:170
+msgid "Afghan afghani"
+msgstr ""
+
+#: includes/classes/vendor/Payments.php:176
+msgid "Albanian lek"
+msgstr ""
+
+#: includes/classes/vendor/Payments.php:182
+msgid "Armenian dram"
+msgstr ""
+
+#: includes/classes/vendor/Payments.php:188
+msgid "Netherlands Antillean guilder"
+msgstr ""
+
+#: includes/classes/vendor/Payments.php:194
+msgid "Angolan kwanza"
+msgstr ""
+
+#: includes/classes/vendor/Payments.php:200
+msgid "Argentine peso"
+msgstr ""
+
+#: includes/classes/vendor/Payments.php:206
+msgid "Australian dollar"
+msgstr ""
+
+#: includes/classes/vendor/Payments.php:207
+msgid "AUD"
+msgstr ""
+
+#: includes/classes/vendor/Payments.php:212
+msgid "Aruban florin"
+msgstr ""
+
+#: includes/classes/vendor/Payments.php:218
+msgid "Azerbaijani manat"
+msgstr ""
+
+#: includes/classes/vendor/Payments.php:224
+msgid "Bosnia and Herzegovina convertible mark"
+msgstr ""
+
+#: includes/classes/vendor/Payments.php:230
+msgid "Barbadian dollar"
+msgstr ""
+
+#: includes/classes/vendor/Payments.php:236
+msgid "Bangladeshi taka"
+msgstr ""
+
+#: includes/classes/vendor/Payments.php:242
+msgid "Bulgarian lev"
+msgstr ""
+
+#: includes/classes/vendor/Payments.php:248
+msgid "Bahraini dinar"
+msgstr ""
+
+#: includes/classes/vendor/Payments.php:254
+msgid "Burundian franc"
+msgstr ""
+
+#: includes/classes/vendor/Payments.php:260
+msgid "Bermudian dollar"
+msgstr ""
+
+#: includes/classes/vendor/Payments.php:266
+msgid "Brunei dollar"
+msgstr ""
+
+#: includes/classes/vendor/Payments.php:272
+msgid "Bolivian boliviano"
+msgstr ""
+
+#: includes/classes/vendor/Payments.php:278
+msgid "Brazilian real"
+msgstr ""
+
+#: includes/classes/vendor/Payments.php:279
+msgid "BRL"
+msgstr ""
+
+#: includes/classes/vendor/Payments.php:284
+msgid "Bahamian dollar"
+msgstr ""
+
+#: includes/classes/vendor/Payments.php:290
+msgid "Botswana pula"
+msgstr ""
+
+#: includes/classes/vendor/Payments.php:296
+msgid "Belarusian ruble"
+msgstr ""
+
+#: includes/classes/vendor/Payments.php:302
+msgid "Belize dollar"
+msgstr ""
+
+#: includes/classes/vendor/Payments.php:308
+msgid "Canadian dollar"
+msgstr ""
+
+#: includes/classes/vendor/Payments.php:309
+msgid "CAD"
+msgstr ""
+
+#: includes/classes/vendor/Payments.php:314
+msgid "Congolese franc"
+msgstr ""
+
+#: includes/classes/vendor/Payments.php:320
+msgid "Swiss franc"
+msgstr ""
+
+#: includes/classes/vendor/Payments.php:321
+msgid "CHF"
+msgstr ""
+
+#: includes/classes/vendor/Payments.php:326
+msgid "Chilean peso"
+msgstr ""
+
+#: includes/classes/vendor/Payments.php:332
+msgid "Chinese yuan"
+msgstr ""
+
+#: includes/classes/vendor/Payments.php:338
+msgid "Colombian peso"
+msgstr ""
+
+#: includes/classes/vendor/Payments.php:344
+msgid "Costa Rican col&oacute;n"
+msgstr ""
+
+#: includes/classes/vendor/Payments.php:350
+msgid "Cuban convertible peso"
+msgstr ""
+
+#: includes/classes/vendor/Payments.php:356
+msgid "Cuban peso"
+msgstr ""
+
+#: includes/classes/vendor/Payments.php:362
+msgid "Cape Verdean escudo"
+msgstr ""
+
+#: includes/classes/vendor/Payments.php:368
+msgid "Czech koruna"
+msgstr ""
+
+#: includes/classes/vendor/Payments.php:369
+msgid "CZK"
+msgstr ""
+
+#: includes/classes/vendor/Payments.php:374
+msgid "Djiboutian franc"
+msgstr ""
+
+#: includes/classes/vendor/Payments.php:380
+msgid "Danish krone"
+msgstr ""
+
+#: includes/classes/vendor/Payments.php:381
+msgid "DKK"
+msgstr ""
+
+#: includes/classes/vendor/Payments.php:386
+msgid "Dominican peso"
+msgstr ""
+
+#: includes/classes/vendor/Payments.php:392
+msgid "Algerian dinar"
+msgstr ""
+
+#: includes/classes/vendor/Payments.php:398
+msgid "Egyptian pound"
+msgstr ""
+
+#: includes/classes/vendor/Payments.php:404
+msgid "Eritrean nakfa"
+msgstr ""
+
+#: includes/classes/vendor/Payments.php:410
+msgid "Ethiopian birr"
+msgstr ""
+
+#: includes/classes/vendor/Payments.php:416
+msgid "Euro"
+msgstr ""
+
+#: includes/classes/vendor/Payments.php:422
+msgid "Fijian dollar"
+msgstr ""
+
+#: includes/classes/vendor/Payments.php:428
+msgid "Falkland Islands pound"
+msgstr ""
+
+#: includes/classes/vendor/Payments.php:434
+msgid "Pound sterling"
+msgstr ""
+
+#: includes/classes/vendor/Payments.php:435
+msgid "GBP"
+msgstr ""
+
+#: includes/classes/vendor/Payments.php:440
+msgid "Georgian lari"
+msgstr ""
+
+#: includes/classes/vendor/Payments.php:446
+msgid "Guernsey pound"
+msgstr ""
+
+#: includes/classes/vendor/Payments.php:452
+msgid "Ghana cedi"
+msgstr ""
+
+#: includes/classes/vendor/Payments.php:458
+msgid "Gibraltar pound"
+msgstr ""
+
+#: includes/classes/vendor/Payments.php:464
+msgid "Gambian dalasi"
+msgstr ""
+
+#: includes/classes/vendor/Payments.php:470
+msgid "Guinean franc"
+msgstr ""
+
+#: includes/classes/vendor/Payments.php:476
+msgid "Guatemalan quetzal"
+msgstr ""
+
+#: includes/classes/vendor/Payments.php:482
+msgid "Guyanese dollar"
+msgstr ""
+
+#: includes/classes/vendor/Payments.php:488
+msgid "Hong Kong dollar"
+msgstr ""
+
+#: includes/classes/vendor/Payments.php:489
+msgid "HKD"
+msgstr ""
+
+#: includes/classes/vendor/Payments.php:494
+msgid "Honduran lempira"
+msgstr ""
+
+#: includes/classes/vendor/Payments.php:500
+msgid "Croatian kuna"
+msgstr ""
+
+#: includes/classes/vendor/Payments.php:506
+msgid "Haitian gourde"
+msgstr ""
+
+#: includes/classes/vendor/Payments.php:512
+msgid "Hungarian forint 1"
+msgstr ""
+
+#: includes/classes/vendor/Payments.php:513
+msgid "HUF"
+msgstr ""
+
+#: includes/classes/vendor/Payments.php:518
+msgid "Indonesian rupiah"
+msgstr ""
+
+#: includes/classes/vendor/Payments.php:524
+msgid "Israeli new shekel"
+msgstr ""
+
+#: includes/classes/vendor/Payments.php:525
+msgid "ILS"
+msgstr ""
+
+#: includes/classes/vendor/Payments.php:530
+msgid "Indian rupee"
+msgstr ""
+
+#: includes/classes/vendor/Payments.php:531
+msgid "INR"
+msgstr ""
+
+#: includes/classes/vendor/Payments.php:536
+msgid "Iraqi dinar"
+msgstr ""
+
+#: includes/classes/vendor/Payments.php:542
+msgid "Iranian rial"
+msgstr ""
+
+#: includes/classes/vendor/Payments.php:548
+msgid "Icelandic kr&oacute;na"
+msgstr ""
+
+#: includes/classes/vendor/Payments.php:554
+msgid "Jamaican dollar"
+msgstr ""
+
+#: includes/classes/vendor/Payments.php:560
+msgid "Jordanian dinar"
+msgstr ""
+
+#: includes/classes/vendor/Payments.php:566
+msgid "Japanese yen 1"
+msgstr ""
+
+#: includes/classes/vendor/Payments.php:567
+msgid "JPY"
+msgstr ""
+
+#: includes/classes/vendor/Payments.php:572
+msgid "Kenyan shilling"
+msgstr ""
+
+#: includes/classes/vendor/Payments.php:578
+msgid "Kyrgyzstani som"
+msgstr ""
+
+#: includes/classes/vendor/Payments.php:584
+msgid "Cambodian riel"
+msgstr ""
+
+#: includes/classes/vendor/Payments.php:590
+msgid "Comorian franc"
+msgstr ""
+
+#: includes/classes/vendor/Payments.php:596
+msgid "North Korean won"
+msgstr ""
+
+#: includes/classes/vendor/Payments.php:602
+msgid "South Korean won"
+msgstr ""
+
+#: includes/classes/vendor/Payments.php:608
+msgid "Kuwaiti dinar"
+msgstr ""
+
+#: includes/classes/vendor/Payments.php:614
+msgid "Cayman Islands dollar"
+msgstr ""
+
+#: includes/classes/vendor/Payments.php:620
+msgid "Kazakhstani tenge"
+msgstr ""
+
+#: includes/classes/vendor/Payments.php:626
+msgid "Lao kip"
+msgstr ""
+
+#: includes/classes/vendor/Payments.php:632
+msgid "Lebanese pound"
+msgstr ""
+
+#: includes/classes/vendor/Payments.php:638
+msgid "Sri Lankan rupee"
+msgstr ""
+
+#: includes/classes/vendor/Payments.php:644
+msgid "Liberian dollar"
+msgstr ""
+
+#: includes/classes/vendor/Payments.php:650
+msgid "Lesotho loti"
+msgstr ""
+
+#: includes/classes/vendor/Payments.php:656
+msgid "Libyan dinar"
+msgstr ""
+
+#: includes/classes/vendor/Payments.php:662
+msgid "Moroccan dirham"
+msgstr ""
+
+#: includes/classes/vendor/Payments.php:668
+msgid "Moldovan leu"
+msgstr ""
+
+#: includes/classes/vendor/Payments.php:674
+msgid "Malagasy ariary"
+msgstr ""
+
+#: includes/classes/vendor/Payments.php:680
+msgid "Macedonian denar"
+msgstr ""
+
+#: includes/classes/vendor/Payments.php:686
+msgid "Burmese kyat"
+msgstr ""
+
+#: includes/classes/vendor/Payments.php:692
+msgid "Mongolian t&ouml;gr&ouml;g"
+msgstr ""
+
+#: includes/classes/vendor/Payments.php:698
+msgid "Macanese pataca"
+msgstr ""
+
+#: includes/classes/vendor/Payments.php:704
+msgid "Mauritian rupee"
+msgstr ""
+
+#: includes/classes/vendor/Payments.php:710
+msgid "Maldivian rufiyaa"
+msgstr ""
+
+#: includes/classes/vendor/Payments.php:716
+msgid "Malawian kwacha"
+msgstr ""
+
+#: includes/classes/vendor/Payments.php:722
+msgid "Mexican peso"
+msgstr ""
+
+#: includes/classes/vendor/Payments.php:723
+msgid "MXN"
+msgstr ""
+
+#: includes/classes/vendor/Payments.php:728
+msgid "Malaysian ringgit 2"
+msgstr ""
+
+#: includes/classes/vendor/Payments.php:729
+msgid "MYR"
+msgstr ""
+
+#: includes/classes/vendor/Payments.php:734
+msgid "Mozambican metical"
+msgstr ""
+
+#: includes/classes/vendor/Payments.php:740
+msgid "Namibian dollar"
+msgstr ""
+
+#: includes/classes/vendor/Payments.php:746
+msgid "Nigerian naira"
+msgstr ""
+
+#: includes/classes/vendor/Payments.php:752
+msgid "Nicaraguan c&oacute;rdoba"
+msgstr ""
+
+#: includes/classes/vendor/Payments.php:758
+msgid "Norwegian krone"
+msgstr ""
+
+#: includes/classes/vendor/Payments.php:759
+msgid "NOK"
+msgstr ""
+
+#: includes/classes/vendor/Payments.php:764
+msgid "Nepalese rupee"
+msgstr ""
+
+#: includes/classes/vendor/Payments.php:770
+msgid "New Zealand dollar"
+msgstr ""
+
+#: includes/classes/vendor/Payments.php:771
+msgid "NZD"
+msgstr ""
+
+#: includes/classes/vendor/Payments.php:776
+msgid "Omani rial"
+msgstr ""
+
+#: includes/classes/vendor/Payments.php:782
+msgid "Panamanian balboa"
+msgstr ""
+
+#: includes/classes/vendor/Payments.php:788
+msgid "Sol"
+msgstr ""
+
+#: includes/classes/vendor/Payments.php:794
+msgid "Papua New Guinean kina"
+msgstr ""
+
+#: includes/classes/vendor/Payments.php:800
+msgid "Philippine peso"
+msgstr ""
+
+#: includes/classes/vendor/Payments.php:801
+msgid "PHP"
+msgstr ""
+
+#: includes/classes/vendor/Payments.php:806
+msgid "Pakistani rupee"
+msgstr ""
+
+#: includes/classes/vendor/Payments.php:812
+msgid "Polish złoty"
+msgstr ""
+
+#: includes/classes/vendor/Payments.php:813
+msgid "PLN"
+msgstr ""
+
+#: includes/classes/vendor/Payments.php:818
+msgid "Paraguayan guaran&iacute;"
+msgstr ""
+
+#: includes/classes/vendor/Payments.php:824
+msgid "Qatari riyal"
+msgstr ""
+
+#: includes/classes/vendor/Payments.php:830
+msgid "Romanian leu"
+msgstr ""
+
+#: includes/classes/vendor/Payments.php:836
+msgid "Serbian dinar"
+msgstr ""
+
+#: includes/classes/vendor/Payments.php:842
+msgid "Russian ruble"
+msgstr ""
+
+#: includes/classes/vendor/Payments.php:843
+msgid "RUB"
+msgstr ""
+
+#: includes/classes/vendor/Payments.php:848
+msgid "Rwandan franc"
+msgstr ""
+
+#: includes/classes/vendor/Payments.php:854
+msgid "Saudi riyal"
+msgstr ""
+
+#: includes/classes/vendor/Payments.php:860
+msgid "Solomon Islands dollar"
+msgstr ""
+
+#: includes/classes/vendor/Payments.php:866
+msgid "Seychellois rupee"
+msgstr ""
+
+#: includes/classes/vendor/Payments.php:872
+msgid "Swedish krona"
+msgstr ""
+
+#: includes/classes/vendor/Payments.php:873
+msgid "SEK"
+msgstr ""
+
+#: includes/classes/vendor/Payments.php:878
+msgid "Singapore dollar"
+msgstr ""
+
+#: includes/classes/vendor/Payments.php:879
+msgid "SGD"
+msgstr ""
+
+#: includes/classes/vendor/Payments.php:884
+msgid "Saint Helena pound"
+msgstr ""
+
+#: includes/classes/vendor/Payments.php:890
+msgid "Sierra Leonean leone"
+msgstr ""
+
+#: includes/classes/vendor/Payments.php:896
+msgid "Somali shilling"
+msgstr ""
+
+#: includes/classes/vendor/Payments.php:902
+msgid "Surinamese dollar"
+msgstr ""
+
+#: includes/classes/vendor/Payments.php:908
+msgid "Syrian pound"
+msgstr ""
+
+#: includes/classes/vendor/Payments.php:914
+msgid "Swazi lilangeni"
+msgstr ""
+
+#: includes/classes/vendor/Payments.php:920
+msgid "Thai baht"
+msgstr ""
+
+#: includes/classes/vendor/Payments.php:921
+msgid "THB"
+msgstr ""
+
+#: includes/classes/vendor/Payments.php:926
+msgid "Tajikistani somoni"
+msgstr ""
+
+#: includes/classes/vendor/Payments.php:932
+msgid "Turkmenistan manat"
+msgstr ""
+
+#: includes/classes/vendor/Payments.php:938
+msgid "Tongan pa&#x2bb;anga"
+msgstr ""
+
+#: includes/classes/vendor/Payments.php:944
+msgid "Turkish lira"
+msgstr ""
+
+#: includes/classes/vendor/Payments.php:950
+msgid "Trinidad and Tobago dollar"
+msgstr ""
+
+#: includes/classes/vendor/Payments.php:956
+msgid "New Taiwan dollar 1"
+msgstr ""
+
+#: includes/classes/vendor/Payments.php:957
+msgid "TWD"
+msgstr ""
+
+#: includes/classes/vendor/Payments.php:962
+msgid "Tanzanian shilling"
+msgstr ""
+
+#: includes/classes/vendor/Payments.php:968
+msgid "Ukrainian hryvnia"
+msgstr ""
+
+#: includes/classes/vendor/Payments.php:974
+msgid "Ugandan shilling"
+msgstr ""
+
+#: includes/classes/vendor/Payments.php:980
+msgid "United States dollar"
+msgstr ""
+
+#: includes/classes/vendor/Payments.php:981
+msgid "USD"
+msgstr ""
+
+#: includes/classes/vendor/Payments.php:986
+msgid "Uruguayan peso"
+msgstr ""
+
+#: includes/classes/vendor/Payments.php:992
+msgid "Uzbekistani som"
+msgstr ""
+
+#: includes/classes/vendor/Payments.php:998
+msgid "Vietnamese &#x111;&#x1ed3;ng"
+msgstr ""
+
+#: includes/classes/vendor/Payments.php:1004
+msgid "Vanuatu vatu"
+msgstr ""
+
+#: includes/classes/vendor/Payments.php:1010
+msgid "Samoan t&#x101;l&#x101;"
+msgstr ""
+
+#: includes/classes/vendor/Payments.php:1016
+msgid "Central African CFA franc"
+msgstr ""
+
+#: includes/classes/vendor/Payments.php:1022
+msgid "East Caribbean dollar"
+msgstr ""
+
+#: includes/classes/vendor/Payments.php:1028
+msgid "West African CFA franc"
+msgstr ""
+
+#: includes/classes/vendor/Payments.php:1034
+msgid "CFP franc"
+msgstr ""
+
+#: includes/classes/vendor/Payments.php:1040
+msgid "Yemeni rial"
+msgstr ""
+
+#: includes/classes/vendor/Payments.php:1046
+msgid "South African rand"
+msgstr ""
+
+#: includes/classes/vendor/Payments.php:1052
+msgid "Zambian kwacha"
+msgstr ""
+
+#: src/Bookit/Gateways/StripeConnect/Gateway.php:75
+msgid "Stripe Connect"
+msgstr ""
+
+#: src/Bookit/Gateways/StripeConnect/Gateway.php:85
+msgid "Stripe wasn't able to complete your connection request. Try again."
+msgstr ""
+
+#: src/Bookit/Gateways/StripeConnect/Gateway.php:90
+msgid "Stripe signup was successful but the authentication tokens could not be retrieved. Try refreshing the tokens."
+msgstr ""
+
+#: src/Bookit/Gateways/StripeConnect/Gateway.php:95
+msgid "Disconnecting from Stripe failed. Please try again."
+msgstr ""
+
+#: src/Bookit/Gateways/StripeConnect/Gateway.php:105
+msgid "Due to Regulatory Issues between Stripe and the country listed in your Stripe account, the Bookit Payments cannot accept connections from accounts in your country. Please use a Stripe account from a different country or purchase Bookit Pro to continue."
+msgstr ""
+
+#. translators: %1$s is the opening <a> tag for the Payments Tab page link. %2$s is the closing <a> tag.
+#: src/Bookit/Gateways/StripeConnect/Gateway.php:112
+msgid "Your stripe account was disconnected from the Stripe dashboard. If you believe this is an error, you can re-connect in the %1$sPayments Tab of the Settings Page%2$s."
+msgstr ""
+
+#: src/Bookit/Gateways/StripeConnect/Gateway.php:134
+msgid "Enable credit card payments, Afterpay, AliPay, Giropay, Klarna and more."
+msgstr ""
+
+#: src/Bookit/Gateways/StripeConnect/Merchant.php:507
+msgid "Error occurred during Payment request!"
+msgstr ""
+
+#: src/Bookit/Gateways/StripeConnect/Merchant.php:566
+msgid "Your card was denied, please provide a new payment method!"
+msgstr ""
+
+#: src/Bookit/Gateways/StripeConnect/REST/Return_Endpoint.php:227
+msgctxt "Description for the Sponsors REST endpoint on a successful return."
+msgid "Returns successful checking of the new attendee queue."
+msgstr ""
+
+#: src/Bookit/Gateways/StripeConnect/REST/Return_Endpoint.php:233
+msgctxt "Description for the Sponsors REST endpoint missing a required parameter."
+msgid "A required parameter is missing or an input parameter is in the wrong format"
+msgstr ""
+
+#: src/Bookit/Gateways/StripeConnect/REST/Return_Endpoint.php:251
+msgctxt "Description for the posts_per_page argument in the Sponsors REST endpoint."
+msgid "The number of sponsors to return."
+msgstr ""
+
+#: src/Bookit/Gateways/StripeConnect/REST/Return_Endpoint.php:257
+msgctxt "Description for the excerpt_length argument in the Sponsors REST endpoint."
+msgid "The length of the sponsor excerpt."
+msgstr ""
+
+#: src/Bookit/Gateways/StripeConnect/REST/Return_Endpoint.php:263
+msgctxt "Description for the include_unassigned argument in the Sponsors REST endpoint."
+msgid "Whether to include unassigned sponsors."
+msgstr ""
+
+#: src/Bookit/REST/V1/Documentation/Abstract_OpenAPI_Documentation.php:200
+msgid "Returns the documentation for Bookit REST API in OpenAPI consumable format."
+msgstr ""
+
+#: src/Bookit/REST/V1/Documentation/OpenAPI_Documentation.php:33
+msgid "Bookit REST API"
+msgstr ""
+
+#: src/Bookit/REST/V1/Documentation/OpenAPI_Documentation.php:34
+msgid "Bookit REST API allows direct connections to different views."
+msgstr ""
+
+#: src/Bookit/REST/V1/Endpoints/Abstract_REST_Endpoint.php:113
+msgctxt "Default description for integration endpoint."
+msgid "No description provided"
+msgstr ""
